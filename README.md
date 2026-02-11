@@ -6,4 +6,4 @@
 
 3. Abrir Xampp e iniciar los servicios de Apache y MySQL.
 
-4. En el navegador, escribir la ruta "http://localhost:8080/cafeteria/index.php"
+4. En el navegador, escribir la ruta "http://localhost:8080/cafeteria-main/index.php"
