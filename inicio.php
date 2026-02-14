@@ -115,7 +115,7 @@ $snacks = array(
         "img" => "galletas",
         "opciones" => array("6 unidades", "Sin nueces", "Mix variado")
     ),
-        array(
+    array(
         "nombre" => "Muffin de arándano",
         "descripcion" => "Muffin esponjoso con arándanos frescos",
         "precio" => "$3.25",
@@ -132,7 +132,7 @@ $snacks = array(
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Menú - Café Delicias</title>
-    <link rel="stylesheet" href="principal.css">
+    <link rel="stylesheet" href="inicio.css">
 </head>
 
 <body>
@@ -141,10 +141,9 @@ $snacks = array(
         <div class="nav-bar">
             <div class="logo">Café y Delicias</div>
             <div class="nav-links">
-                <a href="#cafes">Cafés</a>
-                <a href="#bebidas">Bebidas</a>
-                <a href="#postres">Postres</a>
-                <a href="#snacks">Snacks</a>
+                <a href="index.php">Inicio</a>
+                <a href="productos.php">Productos</a>
+                <a href="pedidos.php">Pedidos</a>
             </div>
         </div>
     </nav>
@@ -276,7 +275,7 @@ $snacks = array(
         </section>
 
         <div class="btnVolver">
-            <a href="index.php" class="btn">Volver</a>
+            <a href="index.php" class="btn">Volver al Inicio</a>
         </div>
     </div>
 
